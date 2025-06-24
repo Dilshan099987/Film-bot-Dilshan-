@@ -26,7 +26,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *Menu List* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃1 srepomenu
+┃◈┃• Quranmenu
 ┃◈┃• Prayertime
 ┃◈┃• Aimenu
 ┃◈┃• Anmiemenu
@@ -79,7 +79,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 });
 
 cmd({
-    pattern: "1",
+    pattern: "reactions",
     desc: "Shows the reaction commands",
     category: "menu",
     react: "💫",
