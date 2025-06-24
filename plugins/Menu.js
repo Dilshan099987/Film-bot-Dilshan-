@@ -26,7 +26,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ╰━━━━━━━━━━━━━━━┈⊷
 ╭━━〔 *Menu List* 〕━━┈⊷
 ┃◈╭─────────────·๏
-┃◈┃• Quranmenu
+┃◈┃1 srepomenu
 ┃◈┃• Prayertime
 ┃◈┃• Aimenu
 ┃◈┃• Anmiemenu
