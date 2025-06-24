@@ -14,6 +14,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         // Generate system status message
         const status = `👋𝐇𝐄𝐋𝐋𝐎 *${pushname}*
+
 ╭━━〔 𝐃𝐈𝐋𝐒𝐇𝐀𝐍 𝐌𝐃 𝐕1 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *⏳Uptime*:  ${runtime(process.uptime())} 
@@ -24,7 +25,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
 
-> ©𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐈𝐋𝐒𝐇𝐀𝐍 〽️𝗗`;
+> ©𝐏𝐎𝐖𝐄𝐑𝐃 𝐁𝐘 𝐃𝐈𝐋𝐒𝐇𝐀𝐍  〽️𝗗`;
 
         // Send the status message with an image
         await conn.sendMessage(from, { 
